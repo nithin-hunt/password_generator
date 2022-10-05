@@ -78,8 +78,8 @@ button {
     width:500px;
     height: 400;
     padding: 25px;
-
 }
+
 .password-box{
     width: 225px;
     height: 39px;   
@@ -196,8 +196,42 @@ button {
   }
 
   @media screen and (max-width: 1080px) {
-    #customize-wrapper {
-        width=100%
+    body {
+        max-width: 500px;
+        margin-top: 20px;
+        margin-left: 20px;
     }
+    #customize-wrapper{
+        width:100%;
+        max-width: 300px;
+        height: 260px;
+    }
+    #customize-area {
+        display: flex;
+        flex-direction: column;
+    }
+    #select-type {
+        margin-top: 20px;
+    }
+    
+    h2 {
+        margin-top: 0px;
+    }
+    button {
+        margin-left: 75px;
+    }
+    #line {
+        
+        max-width:300px;
+       
+    }
+    #password-wrapper{
+        display: flex;  
+        flex-direction: column;
+        justify-content: space-between;
+        width:500px;
+        height: 100px;
+    }
+    
     
   }
