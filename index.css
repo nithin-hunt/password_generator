@@ -194,3 +194,10 @@ button {
     font-size: 15px;
     padding-left: 10px;
   }
+
+  @media screen and (max-width: 1080px) {
+    #customize-wrapper {
+        width=100%
+    }
+    
+  }
