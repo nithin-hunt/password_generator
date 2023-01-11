@@ -1,2 +1,2 @@
 # password_generator (Scrimba Project - 2)
-Live Demo ----> https://password-generator-nithin.netlify.app/
+Live Demo ----> https://www.nithinravi.com/project/password-generator/
